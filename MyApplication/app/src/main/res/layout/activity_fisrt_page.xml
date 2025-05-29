@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fisrt_page">
+
+    <TextView
+        android:id="@+id/tvTitle1"
+        android:layout_width="420dp"
+        android:layout_height="150dp"
+        android:text="Welcome!"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="italic" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="150" />
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Get a rating"
+        android:textSize="20dp"
+        android:backgroundTintMode="src_over"
+        style="@style/Widget.AppCompat.Button.Small"
+        app:backgroundTint="#A1E91E63"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnForm"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Get classification"
+        android:textSize="20dp"
+        android:backgroundTintMode="src_over"
+        style="@style/Widget.AppCompat.Button.Small"
+        app:backgroundTint="#A1E91E63"
+        android:textStyle="italic"
+        android:layout_gravity="center"/>
+</LinearLayout>
