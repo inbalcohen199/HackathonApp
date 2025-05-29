@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="420dp"
+        android:layout_height="150dp"
+        android:text="Classification"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+    <ListView
+        android:id="@+id/lstView"
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="20dp"
+        android:backgroundTintMode="src_over"
+        style="@style/Widget.AppCompat.Button.Small"
+        app:backgroundTint="#A1E91E63"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOther"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Other:"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/etOther"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:backgroundTintMode="src_over"
+        style="@style/Widget.AppCompat.Button.Small"
+        app:backgroundTint="#A1E91E63"
+        android:gravity="right"
+
+        />
+
+
+</LinearLayout>
